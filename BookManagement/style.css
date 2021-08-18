@@ -1,0 +1,55 @@
+tr {
+  border-bottom: 1px solid;
+   text-align: center;
+  height: 40px;
+}
+
+h2{
+
+  text-align: center;
+  margin-top: 40px;
+  color:brown
+}
+table{
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            width: 80%;
+            table-layout:fixed;
+            margin-top: 50x;
+            margin-bottom: 90px;
+
+}
+.container-button{
+
+            margin-left: 140px;
+            margin-right: auto;
+
+}
+th{
+
+background-color: rgb(58, 196, 166);
+color: white;
+font-size: 25px;
+}
+tr:nth-child(even) {
+            background-color: rgb(230, 216, 225);
+}
+
+#button{
+
+  border-radius: 8px;
+  background-color: rgb(58, 196, 166);
+  color: black;
+  font-size: 15px;
+}
+#booksearch{
+ font-size: 13px;
+ width: 100px;
+}
+
+.sortdiv{
+   margin-left: 140px;
+   margin-right: auto;
+}
+

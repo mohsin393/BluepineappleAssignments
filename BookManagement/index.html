@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Book Management</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    
+  </head>
+  <body>
+   
+   <script src="script.js"></script>
+
+   <h2>Book Management</h2>
+  <table id="booktable" border="1" border="1" cellspacing="0" width="1000" rules="none"  >
+  <thead>
+    <tr>
+      <th>Book Id</th>
+      <th>Book Name</th>
+      <th>Author</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+
+<tbody>
+    <tr>
+      <td>1</td>
+      <td>Clean Code</td>
+      <td>Robert Martin</td>
+      <td>100</td>
+    </tr>
+      <tr>
+      <td>2</td>
+      <td>Intorduction to Algorithm</td>
+      <td>Thomas Cormen</td>
+      <td>200</td>
+    </tr>
+      <tr>
+      <td>3</td>
+      <td>Inside the machine</td>
+      <td>Jon Stokes</td>
+      <td>300</td>
+    </tr>
+      <tr>
+      <td>4</td>
+      <td>Programming Perls</td>
+      <td>Jon Bentley</td>
+      <td>400</td>
+    </tr>
+      <tr>
+      <td>5</td>
+      <td>Code Simplicity</td>
+      <td>Max Kanat-Alexander</td>
+      <td>500</td>
+    </tr>
+      <tr>
+      <td>6</td>
+      <td>Soft Skill</td>
+      <td>John Sonmez</td>
+      <td>600</td>
+    </tr>
+      <tr>
+      <td>7</td>
+      <td>Rapid Development</td>
+      <td>Steve McConnell</td>
+      <td>700</td>
+    </tr>
+      <tr>
+      <td>8</td>
+      <td>HTML and CSS</td>
+      <td>Jon Duckett</td>
+      <td>800</td>
+    </tr>
+      <tr>
+      <td>9</td>
+      <td>Effective Java</td>
+      <td>Joshua Bloch</td>
+      <td>900</td>
+    </tr>
+      <tr>
+      <td>10</td>
+      <td>Modern PHP</td>
+      <td>Josh LOckhart</td>
+      <td>1000</td>
+    </tr>
+    </tbody>
+  </table>
+
+
+ <div class="container-button">
+   <h3>Search Books</h3>
+  <input id="booksearch" type="text" placeholder="Enter Book Id"><br><br>
+  <button type="submit" id="button" onclick="bookSearch()"> Search</button>
+  <p id="book_id"></p>
+  </div>
+
+  <div class="sortdiv">
+    <h3>Sort Table</h3>
+    <input id="colnumber" type="text" placeholder="Enter column No"><br><br>
+    <button id="button" onclick="sortAsc()">Asc</button>
+  </div>  
+
+  </body>
+</html>
