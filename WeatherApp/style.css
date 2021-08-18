@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ 
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./img/weather-img.jpg);
+  color:white;
+}
+
+.card {
+  background: #857b7bd0;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 30px;
+  padding: 2em;
+  margin: 1em;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5em;
+  border-radius: 61%;
+  height: 2.5em;
+  width: 3.3em;
+}
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.8em;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 87%;
+  color: black;
+  background: ghostwhite;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
